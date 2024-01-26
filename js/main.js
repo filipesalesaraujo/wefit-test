@@ -58,7 +58,7 @@ grupoBotoes.style.flexDirection = 'row';
 var botoes = grupoBotoes.querySelectorAll('.btn');
 
 botoes.forEach(function(botao) {
-  botao.style.marginRight = '10px';
+  botao.style.marginRight = '5px';
   botao.style.whiteSpace = 'nowrap';
   botao.style.borderRadius = '5px';
 });
