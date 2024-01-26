@@ -13,6 +13,12 @@ quintoItem.className = 'list-group-item';
 
 lista.appendChild(quintoItem);
 
+var primeiroItem = lista.querySelector(':first-child');
+
+primeiroItem.classList.remove('active');
+
+quartoItem.classList.add('active');
+
 // 2 - Cards
 
 var elementos = document.querySelectorAll('.col-lg-3');
