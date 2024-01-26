@@ -48,3 +48,17 @@ botao.style.backgroundColor = 'green';
 
 botao.style.color = 'white';
 botao.style.borderColor = 'green';
+
+// 4 - Menu
+
+var grupoBotoes = document.querySelector('.btn-group-vertical');
+
+grupoBotoes.style.flexDirection = 'row';
+
+var botoes = grupoBotoes.querySelectorAll('.btn');
+
+botoes.forEach(function(botao) {
+  botao.style.marginRight = '10px';
+  botao.style.whiteSpace = 'nowrap';
+  botao.style.borderRadius = '5px';
+});
