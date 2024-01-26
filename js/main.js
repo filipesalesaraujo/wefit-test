@@ -12,3 +12,22 @@ quintoItem.textContent = 'Quinto item';
 quintoItem.className = 'list-group-item';
 
 lista.appendChild(quintoItem);
+
+// 2 - Cards
+
+var elementos = document.querySelectorAll('.col-lg-3');
+
+var primeiro = elementos[0];
+var segundo = elementos[1];
+var terceiro = elementos[2];
+var ultimo = elementos[elementos.length - 1];
+
+var pai = primeiro.parentNode;
+
+pai.removeChild(ultimo);
+
+pai.insertBefore(ultimo, primeiro);
+
+pai.removeChild(segundo);
+
+pai.appendChild(segundo);
