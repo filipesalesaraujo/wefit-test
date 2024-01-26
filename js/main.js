@@ -38,6 +38,10 @@ pai.removeChild(segundo);
 
 pai.appendChild(segundo);
 
+var botaoPrimeiroItem = primeiro.querySelector('a');
+botaoPrimeiroItem.style.backgroundColor = 'green';
+botaoPrimeiroItem.style.border = 'green';
+
 // 3 - Header
 
 var jumbotron = document.querySelector('.jumbotron');
