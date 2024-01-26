@@ -31,3 +31,20 @@ pai.insertBefore(ultimo, primeiro);
 pai.removeChild(segundo);
 
 pai.appendChild(segundo);
+
+// 3 - Header
+
+var jumbotron = document.querySelector('.jumbotron');
+
+jumbotron.style.backgroundColor = '#6c757d';
+
+jumbotron.style.textAlign = 'right';
+
+jumbotron.style.color = 'white';
+
+var botao = jumbotron.querySelector('.btn-primary.btn-lg');
+
+botao.style.backgroundColor = 'green';
+
+botao.style.color = 'white';
+botao.style.borderColor = 'green';
